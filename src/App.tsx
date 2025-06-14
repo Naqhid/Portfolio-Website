@@ -659,7 +659,7 @@ function App() {
               <span className="font-semibold">Mohammed Naqhid - Frontend Developer</span>
             </div>
             <p className="text-sm">
-              © 2024 Mohammed Naqhid. All rights reserved. Built with React & TypeScript.
+              © 2025 Mohammed Naqhid. All rights reserved. Built with React & TypeScript.
             </p>
           </div>
         </div>
