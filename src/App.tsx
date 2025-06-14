@@ -304,7 +304,7 @@ function App() {
                   <div className="text-slate-600">Years Experience</div>
                 </div>
                 <div className="text-center p-4 bg-slate-50 rounded-lg">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">8+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
                   <div className="text-slate-600">Enterprise Projects</div>
                 </div>
               </div>
