@@ -166,13 +166,7 @@ function App() {
     description:
       'Focused on algorithms, data structures, full-stack development, and remote collaboration. Specialized in pair programming and agile methodologies using React, Node.js, and REST APIs.',
   },
-  {
-    degree: 'Bachelor of Computer Applications (BCA)',
-    institution: 'University',
-    year: '2019-2022',
-    description:
-      'Comprehensive study of computer science fundamentals, programming languages, and software development methodologies with focus on web technologies.',
-  },
+ 
 ];
 
 
@@ -659,7 +653,7 @@ function App() {
               <span className="font-semibold">Mohammed Naqhid - Frontend Developer</span>
             </div>
             <p className="text-sm">
-              © 2025 Mohammed Naqhid. All rights reserved. Built with React & TypeScript.
+              © 2025 Mohammed Naqhid. All rights reserved.
             </p>
           </div>
         </div>
