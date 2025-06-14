@@ -152,13 +152,29 @@ function App() {
   ];
 
   const education = [
-    {
-      degree: 'Bachelor of Computer Applications (BCA)',
-      institution: 'University',
-      year: '2019-2022',
-      description: 'Comprehensive study of computer science fundamentals, programming languages, and software development methodologies with focus on web technologies.'
-    }
-  ];
+  {
+    degree: 'B.Tech in Information Technology',
+    institution: 'AMS College of Engineering, Chennai, India',
+    year: '2015 – 2019',
+    description:
+      'Studied core concepts in software engineering, computer networks, and web technologies including foundational coding skills in Java, C, and web development.',
+  },
+  {
+    degree: 'Remote Full Stack Web Development Program (Full Time)',
+    institution: 'Microverse',
+    year: '2020 – 2021',
+    description:
+      'Focused on algorithms, data structures, full-stack development, and remote collaboration. Specialized in pair programming and agile methodologies using React, Node.js, and REST APIs.',
+  },
+  {
+    degree: 'Bachelor of Computer Applications (BCA)',
+    institution: 'University',
+    year: '2019-2022',
+    description:
+      'Comprehensive study of computer science fundamentals, programming languages, and software development methodologies with focus on web technologies.',
+  },
+];
+
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -509,108 +525,130 @@ function App() {
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-slate-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Let's Work Together</h2>
-            <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.
-            </p>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-bold mb-4">Let's Work Together</h2>
+      <p className="text-xl text-slate-300 max-w-3xl mx-auto">
+        Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.
+      </p>
+    </div>
+
+    <div className="grid lg:grid-cols-2 gap-12">
+      {/* Contact Info */}
+      <div>
+        <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
+        <p className="text-slate-300 mb-8 leading-relaxed">
+          I'm always interested in new opportunities and exciting projects. 
+          Whether you need enterprise application development, frontend optimization, 
+          or want to discuss automation solutions, I'd love to hear from you.
+        </p>
+
+        <div className="space-y-4">
+          <div className="flex items-center space-x-4">
+            <Mail className="w-6 h-6 text-blue-400" />
+            <a href="mailto:mnaqhid@gmail.com" className="text-slate-300 hover:underline">mnaqhid@gmail.com</a>
           </div>
-
-          <div className="grid lg:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
-              <p className="text-slate-300 mb-8 leading-relaxed">
-                I'm always interested in new opportunities and exciting projects. 
-                Whether you need enterprise application development, frontend optimization, 
-                or want to discuss automation solutions, I'd love to hear from you.
-              </p>
-              
-              <div className="space-y-4">
-                <div className="flex items-center space-x-4">
-                  <Mail className="w-6 h-6 text-blue-400" />
-                  <span className="text-slate-300">mohammed.naqhid@email.com</span>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <Phone className="w-6 h-6 text-blue-400" />
-                  <span className="text-slate-300">+91 XXXXX XXXXX</span>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <MapPin className="w-6 h-6 text-blue-400" />
-                  <span className="text-slate-300">Available Worldwide (Remote)</span>
-                </div>
-              </div>
-
-              <div className="flex space-x-4 mt-8">
-                <a href="https://github.com/naqhid" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors duration-200">
-                  <Github className="w-6 h-6" />
-                </a>
-                <a href="mailto:mohammed.naqhid@email.com" className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors duration-200">
-                  <Mail className="w-6 h-6" />
-                </a>
-                <a href="#" className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors duration-200">
-                  <Linkedin className="w-6 h-6" />
-                </a>
-              </div>
-            </div>
-
-            <div className="bg-slate-800 p-8 rounded-xl">
-              <form className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">
-                    Full Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-slate-400"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-slate-400"
-                    placeholder="your@email.com"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-slate-300 mb-2">
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-slate-400"
-                    placeholder="Project inquiry"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-300 mb-2">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    rows={4}
-                    className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-slate-400 resize-none"
-                    placeholder="Tell me about your project..."
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
+          <div className="flex items-center space-x-4">
+            <Phone className="w-6 h-6 text-blue-400" />
+            <span className="text-slate-300">+91 8667880266</span>
+          </div>
+          <div className="flex items-center space-x-4">
+            <MapPin className="w-6 h-6 text-blue-400" />
+            <span className="text-slate-300">Ambur, India</span>
           </div>
         </div>
-      </section>
+
+        <div className="flex space-x-4 mt-8">
+          <a href="https://github.com/naqhid" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors duration-200">
+            <Github className="w-6 h-6" />
+          </a>
+          <a href="mailto:mnaqhid@gmail.com" className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors duration-200">
+            <Mail className="w-6 h-6" />
+          </a>
+          <a href="#" className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors duration-200">
+            <Linkedin className="w-6 h-6" />
+          </a>
+        </div>
+      </div>
+
+      {/* Contact Form */}
+      <div className="bg-slate-800 p-8 rounded-xl">
+        <form
+          className="space-y-6"
+          onSubmit={(e) => {
+            e.preventDefault();
+            const name = (document.getElementById('name') as HTMLInputElement)?.value;
+            const email = (document.getElementById('email') as HTMLInputElement)?.value;
+            const subject = (document.getElementById('subject') as HTMLInputElement)?.value;
+            const message = (document.getElementById('message') as HTMLTextAreaElement)?.value;
+
+            const mailtoLink = `mailto:mnaqhid@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+              `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+            )}`;
+
+            window.location.href = mailtoLink;
+          }}
+        >
+          <div>
+            <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">
+              Full Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-slate-400"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">
+              Email Address
+            </label>
+            <input
+              type="email"
+              id="email"
+              className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-slate-400"
+              placeholder="your@email.com"
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="subject" className="block text-sm font-medium text-slate-300 mb-2">
+              Subject
+            </label>
+            <input
+              type="text"
+              id="subject"
+              className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-slate-400"
+              placeholder="Project inquiry"
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="message" className="block text-sm font-medium text-slate-300 mb-2">
+              Message
+            </label>
+            <textarea
+              id="message"
+              rows={4}
+              className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-slate-400 resize-none"
+              placeholder="Tell me about your project..."
+              required
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Footer */}
       <footer className="bg-slate-950 text-slate-400 py-8">
