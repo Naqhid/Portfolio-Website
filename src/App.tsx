@@ -228,9 +228,9 @@ function App() {
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-purple-600/5 to-teal-600/10"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center">
+            {/* <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center">
               <Code2 className="w-16 h-16 text-white" />
-            </div>
+            </div> */}
             <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-4">
               Mohammed Naqhid
             </h1>
