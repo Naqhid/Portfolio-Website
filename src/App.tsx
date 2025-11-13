@@ -238,9 +238,7 @@ function App() {
               Frontend Developer
             </h2>
             <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-4xl mx-auto">
-              Experienced frontend developer specializing in React, Angular, and TypeScript. 
-              Currently leading SailPoint automation projects at ICAMxperts with expertise in 
-              enterprise applications, data visualization, and manufacturing systems.
+             Led SailPoint automation projects at ICAMxperts, developing expertise in enterprise applications, data visualization, and manufacturing systems.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
               <button
