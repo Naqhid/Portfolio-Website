@@ -231,9 +231,9 @@ function App() {
             {/* <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center">
               <Code2 className="w-16 h-16 text-white" />
             </div> */}
-            <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-4">
+            {/* <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-4">
               Mohammed Naqhid
-            </h1>
+            </h1> */}
             <h2 className="text-3xl md:text-4xl font-semibold text-blue-600 mb-6">
               Frontend Developer
             </h2>
